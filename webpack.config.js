@@ -103,6 +103,7 @@ module.exports = {
     // devtool: prod ? false : "source-map",
     devtool: false, //prod ? false : "source-map",
     devServer: {
+        host:'0.0.0.0',
         port: 4000,
         historyApiFallback: true,
     },
